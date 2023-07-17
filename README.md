@@ -1,1 +1,8 @@
-# Reservation-App
+# JA1-Space: Reservation App for Jesus the Anointed One Church Mega Sanctuary at Alangilan Batangas City
+# PROJECT DESCRIPTION
+JA1 Space is a dedicated mobile application developed exclusively for Jesus The Anointed One Church (JA1) located at Brgy. Alangilan, Batangas City, this is to facilitate seamless event reservations within their church premises. The application, bearing the name "JA1 Space," is designed to simplify the process of reserving spaces and managing events at JA1 Church. With JA1 Space, church members, and event organizers can conveniently reserve and coordinate various church events through their mobile devices. JAI Space is accessible through a user-friendly interface accessible via mobile devices. 
+
+The project focuses on Sustainable Development Goal 17, which aims to assist the JA1 Church in fulfilling its vision and mission, which is to provide support, kindness, and love to the society, all of which are essential for a global partnership for sustainable development and foster innovation and financial resources.The application is built using modern web technologies, ensuring compatibility across different devices and platforms. It employs secure authentication and data encryption to protect sensitive information.
+# DEVELOPMENT MODEL
+The image below shows the agile development model that will be used for the application development model, which includes the planning or initiation and requirement analysis phase, designing, development phase, application testing or debugging, launch or deployment and review.
+![356567735_604901931749555_4439176775596458286_n](https://github.com/iam-jerick/JA1-Church-Portal/assets/138177327/59befa68-0165-44de-b980-ecfa725e81af)
