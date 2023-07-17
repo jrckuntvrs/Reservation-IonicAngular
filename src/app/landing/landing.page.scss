@@ -1,0 +1,20 @@
+.logo {
+  width: 50%;
+  margin: 50% 0 0 0;
+  margin-top: 90px;
+}
+.title h2 {
+  font-family: Impact;
+  font-size: 75px;
+  color: white;
+  margin-top: 50px;
+}
+
+ion-content {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../assets/image 7.png") no-repeat center center / cover;
+}
+ion-button {
+  font-family: sans-serif;
+}
+

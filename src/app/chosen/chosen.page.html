@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title> Join </ion-title>
+    <ion-button
+      class="back"
+      class="clearbutton"
+      fill="clear"
+      (click)="goBack()"
+    >
+      <ion-icon name="arrow-back-sharp" color="light"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="title">
+    <h2 class="ion-text-center title">Anointed Wordship</h2>
+  </div>
+  <ion-card>
+    <ion-item>
+      <ion-label position="stacked">FullName:</ion-label>
+      <ion-input
+        type="text"
+        placeholder="Enter Fullname"
+        [(ngModel)]="fullname"
+        name="fullname"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Address:</ion-label>
+      <ion-input
+        type="text"
+        placeholder="Enter Address"
+        [(ngModel)]="address"
+        name="address"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Contact Number:</ion-label>
+      <ion-input
+        type="number"
+        placeholder="Enter Contact Number"
+        [(ngModel)]="contact"
+        name="contact"
+      ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked"> Why do you want to join?</ion-label>
+      <ion-input
+        type="text"
+        placeholder="Answer"
+        [(ngModel)]="why"
+        name="why"
+      ></ion-input>
+    </ion-item>
+
+    <ion-button color="danger" expand="full" (click)="submit()"
+      >Submit</ion-button
+    >
+
+    <ion-button
+      fill="outline"
+      color="danger"
+      expand="full"
+      type="cancel"
+      (click)="cancel()"
+      >Cancel</ion-button
+    >
+  </ion-card>
+</ion-content>

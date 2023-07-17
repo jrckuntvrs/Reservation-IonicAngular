@@ -1,0 +1,32 @@
+ion-content {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../assets/143\ 1.png") no-repeat center center / cover;
+}
+ion-datetime {
+  margin-top: 40%;
+  margin-left: 5%;
+}
+ion-card {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../assets/123\ \(2\).png") no-repeat center center / cover;
+}
+
+.back ion-button {
+  margin-left: 23%;
+  width: 55%;
+}
+ion-card-subtitle {
+  font-family: Tahoma;
+  font-size: 20px;
+  color: white;
+}
+
+ion-title {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+}

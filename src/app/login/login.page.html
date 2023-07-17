@@ -1,0 +1,47 @@
+<ion-content class="ion-padding">
+  <ion-card class="ion-padding">
+    <div class="title">
+      <h4 class="ion-text-center">Login Account</h4>
+    </div>
+
+    <ion-item>
+      <ion-input
+        placeholder="Email"
+        expand="full"
+        [(ngModel)]="email"
+      ></ion-input>
+    </ion-item>
+    <br />
+    <ion-item>
+      <ion-input
+        placeholder="Password"
+        type="password"
+        [(ngModel)]="password"
+      ></ion-input>
+    </ion-item>
+
+    <div class="solidbutton">
+      <ion-button
+        expand="block"
+        color="danger"
+        (click)="submitLogin()"
+        (click)="setOpen(true)"
+        >LOGIN</ion-button
+      >
+      <ion-alert
+        [isOpen]="isAlertOpen"
+        message="Incorrect Email or Password"
+        [buttons]="alertButtons"
+        (didDismiss)="setOpen(false)"
+      ></ion-alert>
+      <ion-button
+        class="clearbutton"
+        expand="block"
+        fill="clear"
+        color="light"
+        (click)="goBack()"
+        >Back</ion-button
+      >
+    </div>
+  </ion-card>
+</ion-content>

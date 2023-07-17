@@ -1,0 +1,7 @@
+{
+  "name": "JesusAnointedChurch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

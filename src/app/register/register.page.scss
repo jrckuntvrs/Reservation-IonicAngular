@@ -1,0 +1,28 @@
+.title h4 {
+  position: inherit;
+  font-family: Impact;
+  font-size: 27px;
+}
+ion-content p {
+  font-size: 18px;
+}
+
+ion-content {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../assets/image 7.png") no-repeat center center / cover;
+}
+ion-card {
+  --background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+    url("../../assets/Rectangle\ 10.png") no-repeat center center / cover;
+  color: white;
+  position: fixed;
+  margin-left: 0.5%;
+  margin-top: 20%;
+}
+ion-input {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+ion-item {
+  border-radius: 5px;
+}

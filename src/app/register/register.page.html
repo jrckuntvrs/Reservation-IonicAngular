@@ -1,0 +1,61 @@
+<ion-content class="ion-padding">
+  <ion-card class="ion-padding">
+    <div class="title">
+      <h4>Register your Account</h4>
+    </div>
+    <ion-item>
+      <ion-input
+        placeholder="Full Name"
+        [(ngModel)]="fullname"
+      ></ion-input> </ion-item
+    ><br />
+    <ion-item>
+      <ion-input
+        placeholder="Address"
+        [(ngModel)]="address"
+      ></ion-input> </ion-item
+    ><br />
+    <ion-item>
+      <ion-input
+        type="number"
+        placeholder="Contact Number"
+        [(ngModel)]="contactNumber"
+      ></ion-input> </ion-item
+    ><br />
+    <ion-item>
+      <ion-input placeholder="Email" [(ngModel)]="email"></ion-input> </ion-item
+    ><br />
+    <ion-item>
+      <ion-input
+        placeholder="Password"
+        type="password"
+        [(ngModel)]="password"
+      ></ion-input> </ion-item
+    ><br />
+    <ion-item>
+      <ion-input
+        placeholder="Confirm Password"
+        type="password"
+        [(ngModel)]="confirmPassword"
+      ></ion-input> </ion-item
+    ><br />
+
+    <p>By signing up you're agreed to Terms & Conditions</p>
+
+    <div class="ion-margin-top">
+      <ion-button expand="block" (click)="submitRegister()" color="danger"
+        >SIGN UP</ion-button
+      >
+    </div>
+    <div class="ion-margin-top">
+      <ion-button
+        class="clearbutton"
+        expand="block"
+        fill="clear"
+        color="light"
+        (click)="goBack()"
+        >Back</ion-button
+      >
+    </div>
+  </ion-card>
+</ion-content>

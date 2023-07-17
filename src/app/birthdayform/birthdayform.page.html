@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title> Reservations </ion-title>
+    <ion-button class="back" class="clearbutton" fill="clear">
+      <ion-icon name="arrow-back-sharp" color="light"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-content>
+    <div class="title">
+      <h2 class="ion-text-center title">Birthday Form</h2>
+    </div>
+    <ion-card>
+      <ion-item>
+        <ion-label position="stacked">FullName:</ion-label>
+        <ion-input
+          type="text"
+          placeholder="Enter Fullname"
+          [(ngModel)]="fullname"
+          name="fullname"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Address:</ion-label>
+        <ion-input
+          type="text"
+          placeholder="Enter Address"
+          [(ngModel)]="address"
+          name="address"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Contact Number:</ion-label>
+        <ion-input
+          type="number"
+          placeholder="Enter Contact Number"
+          [(ngModel)]="contact"
+          name="contact"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked"> Venue:</ion-label>
+        <ion-input
+          type="text"
+          placeholder="Enter Venue/Address"
+          [(ngModel)]="venue"
+          name="venue"
+        ></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked"> Reservation Date:</ion-label>
+        <ion-datetime
+          presentation="date"
+          [(ngModel)]="date"
+          name="date"
+        ></ion-datetime>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked"> Time: </ion-label>
+        <ion-select
+          type="text"
+          placeholder="Set a Time"
+          [(ngModel)]="time"
+          name="time"
+        >
+          <ion-select-option value="8:00 AM"> 8:00 AM </ion-select-option>
+          <ion-select-option value="10:00 AM"> 10:00 AM</ion-select-option>
+          <ion-select-option value="2:00 PM"> 2:00 PM</ion-select-option>
+          <ion-select-option value="4:00 PM"> 4:00 PM</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked"> Pastors: </ion-label>
+        <ion-select
+          type="text"
+          placeholder="Choose Pastor"
+          [(ngModel)]="pastors"
+          name="pastors"
+        >
+          <ion-select-option value="Bishop Art Gonzales">
+            Bishop Art Gonzales</ion-select-option
+          >
+          <ion-select-option value="Rev. Gio Husmillo">
+            Rev. Gio Husmillo</ion-select-option
+          >
+          <ion-select-option value="Rev. Ito Inandan">
+            Rev. Ito Inandan</ion-select-option
+          >
+          <ion-select-option value="Pastor 1"> Pastor 1</ion-select-option>
+          <ion-select-option value="Pastor 2"> Pastor 2 </ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-button color="danger" expand="full" type="submit" (click)="submit()"
+        >Submit</ion-button
+      >
+      <ion-button fill="outline" color="danger" expand="full" type="cancel"
+        >Cancel</ion-button
+      >
+    </ion-card>
+  </ion-content>
+</ion-content>

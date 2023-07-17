@@ -1,0 +1,23 @@
+ion-title{
+    font-family: Verdana;
+}
+ion-card{
+    background-image: url("../../assets/Rectangle\ 29\ \(2\).png") ;
+    margin-top: 5%;
+}
+ion-item{
+    border-radius: 5px;
+}
+ion-content{
+    --background: linear-gradient(0deg, rgba(0,0,0,0.0), rgba(0,0,0,0.0)), 
+    url("../../assets/Rectangle\ 45.png") no-repeat center center / cover;
+    position: fixed;
+  }
+
+  .title{
+    margin-top: 20%;
+    font-family: Verdana;
+    color:#e04055;
+    font-weight: bold;
+
+  }

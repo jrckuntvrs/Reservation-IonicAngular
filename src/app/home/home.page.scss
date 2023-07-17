@@ -1,0 +1,21 @@
+ion-content{
+  --background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.1)), 
+  url("../../assets/ONE\ 1.png") no-repeat center center / cover;
+  position: fixed;
+}
+.title h2{
+  margin-top: 96%;
+  font-size: 45px;
+  font-family: Verdana;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  
+}
+ion-button{
+margin-left: 58%;
+font-size: 50px;
+color: #ff5b71;
+
+}
+
